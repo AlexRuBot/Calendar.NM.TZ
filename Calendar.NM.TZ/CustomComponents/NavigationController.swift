@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  NavigationController.swift
 //  Calendar.NM.TZ
 //
 //  Created by Александр Гужавин on 25.07.2023.
@@ -7,13 +7,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class NavigationController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        navigationBar.isHidden = false
     }
-
-
 }
-

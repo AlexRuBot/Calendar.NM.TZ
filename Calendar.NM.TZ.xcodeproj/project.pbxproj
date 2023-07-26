@@ -7,23 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E08F13A82A711DA600E5D0C7 /* TitleTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08F13A72A711DA600E5D0C7 /* TitleTextField.swift */; };
+		E08F13AD2A716EE200E5D0C7 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08F13AC2A716EE200E5D0C7 /* EventTableViewCell.swift */; };
 		E0C056BF2A6FF0B5006F11E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C056BE2A6FF0B5006F11E1 /* AppDelegate.swift */; };
 		E0C056C12A6FF0B5006F11E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C056C02A6FF0B5006F11E1 /* SceneDelegate.swift */; };
-		E0C056C32A6FF0B5006F11E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C056C22A6FF0B5006F11E1 /* ViewController.swift */; };
-		E0C056C62A6FF0B5006F11E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0C056C42A6FF0B5006F11E1 /* Main.storyboard */; };
 		E0C056C82A6FF0B6006F11E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0C056C72A6FF0B6006F11E1 /* Assets.xcassets */; };
 		E0C056CB2A6FF0B6006F11E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0C056C92A6FF0B6006F11E1 /* LaunchScreen.storyboard */; };
+		E0C056D42A6FF336006F11E1 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C056D32A6FF336006F11E1 /* CalendarViewController.swift */; };
+		E0C056D62A6FF36D006F11E1 /* AddEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C056D52A6FF36D006F11E1 /* AddEventViewController.swift */; };
+		E0C056DE2A6FF49F006F11E1 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = E0C056DD2A6FF49F006F11E1 /* SnapKit */; };
+		E0C056E02A6FF4D8006F11E1 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C056DF2A6FF4D8006F11E1 /* NavigationController.swift */; };
+		E0C056E42A701E41006F11E1 /* DateDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C056E32A701E41006F11E1 /* DateDataBase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E08F13A72A711DA600E5D0C7 /* TitleTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTextField.swift; sourceTree = "<group>"; };
+		E08F13AC2A716EE200E5D0C7 /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
 		E0C056BB2A6FF0B5006F11E1 /* Calendar.NM.TZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calendar.NM.TZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0C056BE2A6FF0B5006F11E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0C056C02A6FF0B5006F11E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E0C056C22A6FF0B5006F11E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E0C056C52A6FF0B5006F11E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0C056C72A6FF0B6006F11E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0C056CA2A6FF0B6006F11E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0C056CC2A6FF0B6006F11E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0C056D32A6FF336006F11E1 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		E0C056D52A6FF36D006F11E1 /* AddEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventViewController.swift; sourceTree = "<group>"; };
+		E0C056DF2A6FF4D8006F11E1 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		E0C056E32A701E41006F11E1 /* DateDataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateDataBase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +40,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0C056DE2A6FF49F006F11E1 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E08F13A92A71341500E5D0C7 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				E0C056D32A6FF336006F11E1 /* CalendarViewController.swift */,
+				E08F13AC2A716EE200E5D0C7 /* EventTableViewCell.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		E08F13AA2A71342800E5D0C7 /* AddEvent */ = {
+			isa = PBXGroup;
+			children = (
+				E0C056D52A6FF36D006F11E1 /* AddEventViewController.swift */,
+			);
+			path = AddEvent;
+			sourceTree = "<group>";
+		};
+		E08F13AB2A71344C00E5D0C7 /* CustomComponents */ = {
+			isa = PBXGroup;
+			children = (
+				E08F13A72A711DA600E5D0C7 /* TitleTextField.swift */,
+				E0C056DF2A6FF4D8006F11E1 /* NavigationController.swift */,
+			);
+			path = CustomComponents;
+			sourceTree = "<group>";
+		};
 		E0C056B22A6FF0B5006F11E1 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +92,25 @@
 		E0C056BD2A6FF0B5006F11E1 /* Calendar.NM.TZ */ = {
 			isa = PBXGroup;
 			children = (
+				E08F13AB2A71344C00E5D0C7 /* CustomComponents */,
+				E08F13AA2A71342800E5D0C7 /* AddEvent */,
+				E08F13A92A71341500E5D0C7 /* Calendar */,
+				E0C056D22A6FF2C8006F11E1 /* Source */,
+				E0C056E32A701E41006F11E1 /* DateDataBase.swift */,
+			);
+			path = Calendar.NM.TZ;
+			sourceTree = "<group>";
+		};
+		E0C056D22A6FF2C8006F11E1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
 				E0C056BE2A6FF0B5006F11E1 /* AppDelegate.swift */,
 				E0C056C02A6FF0B5006F11E1 /* SceneDelegate.swift */,
-				E0C056C22A6FF0B5006F11E1 /* ViewController.swift */,
-				E0C056C42A6FF0B5006F11E1 /* Main.storyboard */,
 				E0C056C72A6FF0B6006F11E1 /* Assets.xcassets */,
 				E0C056C92A6FF0B6006F11E1 /* LaunchScreen.storyboard */,
 				E0C056CC2A6FF0B6006F11E1 /* Info.plist */,
 			);
-			path = Calendar.NM.TZ;
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +129,9 @@
 			dependencies = (
 			);
 			name = Calendar.NM.TZ;
+			packageProductDependencies = (
+				E0C056DD2A6FF49F006F11E1 /* SnapKit */,
+			);
 			productName = Calendar.NM.TZ;
 			productReference = E0C056BB2A6FF0B5006F11E1 /* Calendar.NM.TZ.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +160,9 @@
 				Base,
 			);
 			mainGroup = E0C056B22A6FF0B5006F11E1;
+			packageReferences = (
+				E0C056DC2A6FF49F006F11E1 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = E0C056BC2A6FF0B5006F11E1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +179,6 @@
 			files = (
 				E0C056CB2A6FF0B6006F11E1 /* LaunchScreen.storyboard in Resources */,
 				E0C056C82A6FF0B6006F11E1 /* Assets.xcassets in Resources */,
-				E0C056C62A6FF0B5006F11E1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +189,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0C056C32A6FF0B5006F11E1 /* ViewController.swift in Sources */,
+				E08F13AD2A716EE200E5D0C7 /* EventTableViewCell.swift in Sources */,
+				E0C056D42A6FF336006F11E1 /* CalendarViewController.swift in Sources */,
+				E0C056E42A701E41006F11E1 /* DateDataBase.swift in Sources */,
+				E08F13A82A711DA600E5D0C7 /* TitleTextField.swift in Sources */,
+				E0C056D62A6FF36D006F11E1 /* AddEventViewController.swift in Sources */,
+				E0C056E02A6FF4D8006F11E1 /* NavigationController.swift in Sources */,
 				E0C056BF2A6FF0B5006F11E1 /* AppDelegate.swift in Sources */,
 				E0C056C12A6FF0B5006F11E1 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +203,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E0C056C42A6FF0B5006F11E1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E0C056C52A6FF0B5006F11E1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E0C056C92A6FF0B6006F11E1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,10 +337,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2NJA6A6R83;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Calendar.NM.TZ/Info.plist;
+				INFOPLIST_FILE = Calendar.NM.TZ/Source/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -317,10 +365,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2NJA6A6R83;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Calendar.NM.TZ/Info.plist;
+				INFOPLIST_FILE = Calendar.NM.TZ/Source/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +406,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E0C056DC2A6FF49F006F11E1 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E0C056DD2A6FF49F006F11E1 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E0C056DC2A6FF49F006F11E1 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E0C056B32A6FF0B5006F11E1 /* Project object */;
 }
